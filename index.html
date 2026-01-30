@@ -8,6 +8,25 @@
     <script src="game.js" defer></script>
 </head>
 <body>
-    
+    <nav>
+        <h1>Tic Tac Toe</h1>
+    </nav>
+    <main>
+        <div id="gameboard">
+            
+        </div>
+    </main>
+    <footer>
+        <input type="text" id="player1" placeholder="player 1 name">
+        <input type="text" id="player2" placeholder="player 2 name">
+        <button id="start-button" >Start Game</button>
+        <button id="restart-button" >Restart Game</button>
+    </footer>
+    <div id="game-modal" class="modal">
+    <div class="modal-content">
+        <h2 id="modal-text">Result</h2>
+        <button id="modal-restart">Play Again</button>
+    </div>
+</div>
 </body>
 </html>
